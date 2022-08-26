@@ -1,0 +1,37 @@
+/*GENERAL FORMATTING*/
+html {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 120rem;
+  padding: 0 3.2rem;
+}
+
+.header--container {
+  margin: 0 auto;
+  max-width: 130rem;
+  padding: 3.2rem 0;
+}
+
+/*REUSEABLE GRID*/
+.grid {
+  display: grid;
+  gap: 10rem;
+  align-self: center;
+  max-width: 120rem;
+  padding-top: 3rem;
+}
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--4--cols {
+  grid-template-columns: repeat(4, 1fr);
+}
