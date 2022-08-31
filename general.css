@@ -25,7 +25,6 @@ html {
   display: grid;
   gap: 10rem;
   align-self: center;
-  max-width: 120rem;
   padding-top: 3rem;
 }
 

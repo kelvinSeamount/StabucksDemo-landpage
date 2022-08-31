@@ -1,13 +1,12 @@
 /*NAV-HEAD*/
 .header {
   background-color: #f4fce3;
-  width: 100vw;
 }
 .nav-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.6rem 1.2rem;
+  /*padding: 1.6rem 1.2rem;*/
 }
 
 .main-nav-list {
