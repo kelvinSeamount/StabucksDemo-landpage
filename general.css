@@ -1,36 +1,40 @@
-/*GENERAL FORMATTING*/
-html {
-  font-size: 62.5%;
-}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+.body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
 .container {
+  max-width: 1200px;
   margin: 0 auto;
-  max-width: 120rem;
-  padding: 0 3.2rem;
+  padding: 0;
+  width: 90%;
 }
 
-.header--container {
-  margin: 0 auto;
-  max-width: 130rem;
-  padding: 3.2rem 0;
+a {
+  text-decoration: none;
 }
 
-/*REUSEABLE GRID*/
+li {
+  list-style: none;
+}
+
 .grid {
   display: grid;
-  gap: 10rem;
   align-self: center;
-  padding-top: 3rem;
+  gap: 20%;
 }
 
 .grid--2--cols {
   grid-template-columns: repeat(2, 1fr);
 }
+
 .grid--4--cols {
   grid-template-columns: repeat(4, 1fr);
 }
