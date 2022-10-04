@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>STARBUCKS COFFEE SHOP</title>
     <link rel="stylesheet" href="general.css" />
-
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -18,17 +17,22 @@
         /></a>
         <nav class="main-nav">
           <ul class="main-nav-list">
-            <li><a class="nav-link" href="#">Home</a></li>
-            <li><a class="nav-link" href="#">About</a></li>
-            <li><a class="nav-link" href="#">Contact</a></li>
-            <li><a class="nav-link nav-cta" href="#">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item"><a class="nav-link nav-cta" href="#">Menu</a></li>
           </ul>
         </nav>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </header>
     </section>
     <main>
       <section class="hero">
-        <div class="container grid grid--2--cols">
+        <div class="container flex">
           <div class="textbox">
             <h2>It's not just Coffee <br />It's <span>Starbucks</span></h2>
             <p>
@@ -41,21 +45,6 @@
           <div class="imgbox">
             <img src="/img/img1.png" alt="Coffee" class="coffee-img" />
           </div>
-          <div class="main-thumb">
-            <ul class="thumb">
-              <li><img src="img/thumb1.png" alt="" /></li>
-              <li><img src="img/thumb2.png" alt="" /></li>
-              <li><img src="img/thumb3.png" alt="" /></li>
-            </ul>
-          </div>
-          <div class="main-media">
-            <ul class="media">
-              <li><img src="img/facebook.png" alt="facebook" /></li>
-              <li><img src="img/instagram.png" alt="instagram" /></li>
-              <li><img src="img/twitter.png" alt="twitter" /></li>
-            </ul>
-          </div>
-        </div>
       </section>
     </main>
 
@@ -103,5 +92,6 @@
         </nav>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
